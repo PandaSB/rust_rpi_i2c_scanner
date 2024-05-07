@@ -1,0 +1,12 @@
+[package]
+name = "i2c_scanner"
+version = "0.1.0"
+edition = "2021"
+authors = ["Stephane BARTHELEMY <stephane@sbarthelemy.com>"]
+description = "A I2c scanner for raspberry pi ( tested on raspberry pi 5) "
+license = "MIT"
+license-file = "LICENSE.txt"
+
+
+[dependencies]
+rppal = "0.17.1"
